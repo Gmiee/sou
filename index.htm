@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="R.svg">
+    <!-- <link rel="stylesheet"> <href="style.css"> -->
+    <title>website</title>
+</head>
+<style>
+    body {
+        background-color: black;
+        background-image: url(wall23.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .nav {
+
+        width: 100%;
+        size: 25px;
+        background-color: rgb(68, 64, 64);
+        overflow: auto;
+        font-family: fantasy;
+    }
+
+    .nav a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-size: 25px;
+        text-align: center;
+        float: left;
+        margin: 10px 5px;
+    }
+
+    .nav :hover {
+        color: rgb(126, 129, 129);
+        /* text-shadow: rgb(242, 0, 0) -6px 0,cyan 6px 0; */
+
+    }
+
+    .search {
+        float: right;
+        padding: 12px;
+    }
+
+    .search :hover {
+        box-shadow: 0 0 5px white, 0 0 25px white, 0 0 50px white, 0 0 white;
+    }
+
+    .home {
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .btn {
+        background-color: aqua;
+        box-shadow: red 4px 4px 0px;
+        border-radius: 8px;
+        transition: transform 200ms, box-shadow;
+    }
+
+    /* .btn  :active{
+        transform: translate(4px) translate(4px);
+        box-shadow: red 0 0 0;
+    } */
+    .cv {
+        /* text-decoration: none; */
+        margin: 5px;
+        font-family: fantasy;
+        letter-spacing: 1px;
+        text-align: center;
+        color: white;
+
+    }
+
+    .cv :hover {
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+
+
+    }
+
+    .cv a {
+        text-decoration: none;
+        color: white;
+        transition: font-size 1s;
+
+    }
+    
+    .img a {
+        display: block;
+        background-size: cover;
+        transform-style: preserve-3d;
+        transform: rotateX(70deg);
+        transition: all 0.8s;
+    }
+
+    .img :hover {
+        transform: rotateX(20deg);
+    }
+    .pa{
+        font-size: larger;
+        font-family: fantasy;
+        color: white;
+    }
+</style>
+
+<body>
+    <div class="nav">
+        <nav>
+            <a href="">HOME</a>
+            <a href="about.htm">ABOUT</a>
+            <a href="">CONTACT US</a>
+            <a href="login.html">LOGIN</a>
+
+            <div class="search">
+                <input type="search" placeholder="search" style="width: 100px;">
+                <button>Search</button>
+            </div>
+    </div>
+
+
+    </nav>
+
+
+    <div class="home">
+        <h1>
+            <center>Portfolio</center>
+        </h1>
+        <hr>
+        <details>
+            <summary> ABOUT ME</summary>My name is jenish khemnani i'm currently doing my bachelors in computer
+            application, and looking foa a challenging oppurtunity which enhance my knowledge and finally contributing
+            to the growth of organization
+        </details>
+        <!-- <hr> -->
+    </div>
+
+    <!-- <div class="btn">
+<button>Let get started</button>
+</div> -->
+    <div class="cv">
+        <a href="https://drive.google.com/file/d/17E-prEhgW9J9lRdv-ghXEcYfJEs0mZpW/view">Download Resume</a>
+    </div>
+    
+    <div class="img" align="center">
+        <a href="#"><img src="pic.jpeg" style="border-radius:50%; width: 250px; height: 250px; "></a>
+        <div class="pa">
+            <p align="center"><u>Jenish Khemnani</p></u>
+        </div>
+
+
+    </div>
+    
+</body>
+
+</html>
